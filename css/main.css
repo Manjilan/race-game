@@ -1,0 +1,39 @@
+body{
+  background-color: black;
+  padding-top: 100px;
+}
+div{
+  width:100%;
+  height: auto;
+}
+h1{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px 0;
+}
+h3{
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+#end img{
+  float: right;
+  padding-top: 50px;
+  padding-left: 20px;
+  border-left: 3px solid white;
+
+}
+img{
+  width: 200px;
+  height: auto;
+}
+.raceMove{
+   animation: mymove 5s forwards;
+
+}
+
+@keyframes mymove {
+    from {margin-left: 0px;}
+    to {margin-left: 950px;}
+}
